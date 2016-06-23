@@ -1,0 +1,42 @@
+{
+	"sensores":[
+		{
+			"identificador":"05",
+			"nome":"Button",
+			"tipo":"DIGITAL",
+			"port":"/dev/ttyUSB0",
+			"valor":"0000"
+		}
+	],
+	"atuadores":[
+		{
+                        "identificador":"04",
+                        "nome":"Buzzer",
+                        "tipo":"DIGITAL",
+                        "port":"/dev/ttyACM0",
+                        "valor":"0000"
+                },
+		{
+                        "identificador":"03",
+                        "nome":"LED",
+                        "tipo":"DIGITAL",
+                        "port":"/dev/ttyACM0",
+                        "valor":"0001"
+		},
+		{
+                        "identificador":"02",
+                        "nome":"LED",
+                        "tipo":"DIGITAL",
+                        "port":"/dev/ttyACM0",
+                        "valor":"0001"
+                },
+		{
+                        "identificador":"01",
+                        "nome":"LED",
+                        "tipo":"DIGITAL",
+                        "port":"/dev/ttyACM0",
+                        "valor":"0001"
+                }
+
+	]
+}
